@@ -13,11 +13,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello/:name', (req, res) => {
-  res.render('hello', { name: req.params.name });
+  res.render('hello', { layout: 'dark', name: req.params.name });
 });
 
 app.get('/about', (req, res) => {
-  res.render('about');
+  res.render('about', { layout: 'dark' });
 });
 
 app.get('/contact', (req, res) => {

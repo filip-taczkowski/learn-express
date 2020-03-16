@@ -1,4 +1,15 @@
+body {
+  background: #fff;
+  color: #282c34;
+  padding: 30px;
+  text-align: center;
+}
+
 h1 {
   font-weight: lighter;
-  font-style: italic;
+}
+
+.darkBody {
+  background: #282c34;
+  color: #fff;
 }
